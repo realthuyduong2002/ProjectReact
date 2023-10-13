@@ -1,0 +1,21 @@
+/* Tạo một lớp CSS để định dạng các label và input */
+.input-container {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

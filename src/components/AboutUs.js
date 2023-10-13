@@ -1,8 +1,9 @@
 import React from 'react';
+import './Aboutus.css';
 
 function Aboutus() {
   return (
-    <div>
+    <div className="about-us">
       <h2>About Us</h2>
       <p>
         Welcome to our cat-themed website – a place dedicated to celebrating the beauty, charm, and unique personalities of these wonderful creatures! Cats are an essential part of the daily lives of millions of people around the world, and our website has been created to share with you all the amazing aspects of the feline world.

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import './Home.css';
 
 function Home() {
   return (
-    <div>
+    <div className="home-container">
       <h1>Welcome to Our Home Page</h1>
-      <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={3000}>
+      <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={3000} className="carousel">
         <div>
           <img src="/meochanngan.jpg" alt="Slide 1" style={{ width: '100%', height: 'auto' }} />
         </div>
