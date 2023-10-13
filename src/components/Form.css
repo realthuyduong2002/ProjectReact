@@ -1,5 +1,11 @@
 /* Tạo một lớp CSS để định dạng các label và input */
 .input-container {
+  display: block;
+  margin-top: 20px; /* Điều chỉnh khoảng cách phía trên dựa trên sở thích của bạn */
+  margin-bottom: 10px;
+}
+
+.input-container {
     display: block;
     margin-bottom: 10px;
   }

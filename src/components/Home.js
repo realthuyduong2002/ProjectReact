@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="home-container">
       <h1>Welcome to Our Home Page</h1>
-      <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={3000} className="carousel">
+      <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} interval={3000} stopOnHover={false} className="carousel">
         <div>
           <img src="/meochanngan.jpg" alt="Slide 1" style={{ width: '100%', height: 'auto' }} />
         </div>

@@ -5,6 +5,10 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 20px;
+    text-align: center; /* Căn giữa nội dung theo chiều ngang */
+    margin: 0 auto; /* Căn giữa phần nội dung theo chiều ngang */
+    max-width: 800px; /* Đặt chiều rộng tối đa của phần nội dung */
+    margin-top: 20px;
   }
   
   h2 {
